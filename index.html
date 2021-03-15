@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+	</head>
+	<body>
+		<template id="balloon-template">
+			<div id="" class="image-container">			<!-- block, width and height -->
+				<img id="" src="" alt="balloon" class="image-img"/>		<!-- height:100% -->
+			</div>
+		</template>
+
+		<!-- Start of displayable page -->
+		<div id="top-panel">
+			<div id="sky-content">
+				<div id="bannerPanel">
+					<h1>HAVE AN ADVENTURE</h1>
+					<h4>Experience a ride on the wind in a hot-air ballon!</h4>
+				</div>
+				<div id="click-msg">
+					<span id="clearmsg">Click in view to stop/restart adding balloons, click on a balloon to sink it!</span>			
+				</div>
+			</div>		
+		</div>
+	
+		<div id="audio-ctrl">
+			<audio autoplay loop controls>
+				<source src="sounds/burner.wav" type="audio/wav">
+			</audio>
+		</div>
+
+		<div id="bi-line-heading">Get carried away with us!</div>
+
+		<div id="mid-panel" class="container">
+			<h1 class="what-to-expect-title">What to expect on your special day...</h1>
+			
+			<div class="mid-section row">
+				<div class="mid-img col-md-2">
+					<img src="images/mid-a.png">					
+				</div>
+				<div id="msg-a" class="mid-msg col-md-10">
+					Your adventure begins at dawn at our launch location in Aberdeen, BC (approx. 30 minutes from Oskange) in the early morning. We start by inflating the balloon, an amazing sight in itself. Feel free to watch or join in!
+				</div>				
+			</div>
+
+			<div class="mid-section row">
+				<div class="mid-img col-md-2">
+					<img src="images/mid-b.png">
+				</div>
+				<div id="msg-b" class="mid-msg col-md-10">
+					After the balloons are inflated and all safety checks complete, we are ready to fly. Our FAA-licensed pilots will take you on an approximately one-hour flight, depending on which direction the winds are blowing on flight day. During that time, you’ll see the wine making hills of the Pleasant Valley, the twisting Veendana River, 10 mountain peaks on a clear day and several other balloons flying around you. It’s hard to do justice to the majesty of the scene but we think you will be impressed.
+				</div>
+			</div>
+
+			<div class="mid-section row">
+				<div class="mid-img col-md-2">
+					<img src="images/mid-c.png">
+				</div>
+				<div id="msg-c" class="mid-msg col-md-10">
+					Upon landing, our ground crew will meet you to pick you up and deflate your balloon. You are very welcome to participate, however, it’s completely fine if you choose to stand by and admire the process. After the balloons are deflated and put away, board our vans for a 30-minute ride back to the launch site where you will be served a sparkling brunch. Plan on approximately 4 hours for the whole experience.
+				</div>
+			</div>
+		</div>
+
+		<div id="bottom-panel">
+			Copyright Michael Colynuck 2015
+		</div>
+
+		<!-- End of displayable page -->
+
+
+		<!-- Files to include -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/balloons.js"></script>
+
+	</body>
+</html>
